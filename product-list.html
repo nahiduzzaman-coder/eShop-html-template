@@ -780,5 +780,14 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script>
+      window.oncontextmenu = function () {
+        return false;
+      };
+
+      document.onkeydown = function (e) {
+        return false;
+      };
+    </script>
   </body>
 </html>
